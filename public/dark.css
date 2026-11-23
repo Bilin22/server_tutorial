@@ -1,0 +1,14 @@
+/* Dark color scheme — applied automatically when the OS/browser prefers dark mode. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1115;
+    --surface: #181b22;
+    --text: #e6e8eb;
+    --muted: #9aa3b2;
+    --accent: #8b87ff;
+    --border: #2a2f3a;
+    --nav-bg: rgba(15, 17, 21, 0.85);
+    --accent-soft: rgba(139, 135, 255, 0.14);
+    --shadow: rgba(0, 0, 0, 0.4);
+  }
+}
